@@ -6,9 +6,6 @@ export default function StatisticsList({ title, stats }) {
       {title && <h2>{title}</h2>}
 
       <ul>
-        {/* <div>{stats}</div> */}
-        {console.log(stats)}
-        <div>{title}</div>
         {stats.map(stat => (
           <li key={stat.id}>
             <span>{stat.label}</span>
