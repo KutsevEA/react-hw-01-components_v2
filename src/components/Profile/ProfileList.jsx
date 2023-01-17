@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Profile from 'components/Profile';
+import Profile from 'components/Profile/Profile';
 
 export default function ProfileList({ profiles }) {
   return (
